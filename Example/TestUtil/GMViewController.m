@@ -7,6 +7,7 @@
 //
 
 #import "GMViewController.h"
+#import "LogTest.h"
 
 @interface GMViewController ()
 
@@ -14,10 +15,9 @@
 
 @implementation GMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [LogTest logTest];
 }
 
 - (void)didReceiveMemoryWarning

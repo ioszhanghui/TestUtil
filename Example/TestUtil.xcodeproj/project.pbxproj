@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		042D3F1BACB80E8A64FB57DE /* Pods-TestUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUtil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestUtil_Tests/Pods-TestUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1B708B567E776E45AEDFF1F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1B708B567E776E45AEDFF1F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		26AA552379206821F9365948 /* Pods-TestUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUtil_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestUtil_Example/Pods-TestUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		317FABFF83DCFD8A98C15386 /* Pods-TestUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUtil_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestUtil_Tests/Pods-TestUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TestUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		7A97C9844618D6F7F044F97B /* Pods_TestUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8DF68A4C26C9EC1C5C43B88 /* Pods-TestUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUtil_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestUtil_Example/Pods-TestUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AD8F1A8639355AB8713AB025 /* TestUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestUtil.podspec; path = ../TestUtil.podspec; sourceTree = "<group>"; };
-		E545F42D2EB623F535156184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD8F1A8639355AB8713AB025 /* TestUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestUtil.podspec; path = ../TestUtil.podspec; sourceTree = "<group>"; };
+		E545F42D2EB623F535156184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ECD2F639D69059ECC07725F3 /* Pods_TestUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ioszhanghui@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DVSEF92325;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -504,6 +507,7 @@
 			baseConfigurationReference = 26AA552379206821F9365948 /* Pods-TestUtil_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVSEF92325;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestUtil/TestUtil-Prefix.pch";
 				INFOPLIST_FILE = "TestUtil/TestUtil-Info.plist";
@@ -519,6 +523,7 @@
 			baseConfigurationReference = A8DF68A4C26C9EC1C5C43B88 /* Pods-TestUtil_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVSEF92325;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestUtil/TestUtil-Prefix.pch";
 				INFOPLIST_FILE = "TestUtil/TestUtil-Info.plist";
